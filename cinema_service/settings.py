@@ -140,12 +140,3 @@ MEDIA_URL = "/media/"
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-''''REST_FRAMEWORK = {
-    "DEFAULT_PERMISSION_CLASSES": [
-        "cinema.permissions.IsAdminAllOrIfAuthenticatedReadOnly",
-    ],
-    "DEFAULT_AUTHENTICATION_CLASSES": [
-        "rest_framework.authentication.TokenAuthentication",
-    ]
-}'''
